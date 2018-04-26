@@ -1,6 +1,8 @@
 # software-test-class-sample
 Software test class sample code
 
+support Jenkins file
+
 Use google test as framework
 
 ## Makefile
