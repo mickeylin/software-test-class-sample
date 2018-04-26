@@ -1,7 +1,7 @@
 # software-test-class-sample
 Software test class sample code
 
-support Jenkins file
+support CI Jenkins file
 
 Use google test as framework
 
