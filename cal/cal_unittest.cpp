@@ -5,12 +5,15 @@ TEST(cal, add){
 }
 
 TEST(cal, sub){
+	EXPECT_EQ(cal('-', 2, 3), -1);
 }
 
 TEST(cal, mul){
+	EXPECT_EQ(cal('*', 2, 3), 6);
 }
 
 TEST(cal, div){
+	EXPECT_EQ(cal('/', 8, 2), 4);
 }
 
 TEST(cal, unknown){
