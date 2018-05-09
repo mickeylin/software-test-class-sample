@@ -1,4 +1,5 @@
 # software-test-class-sample
+[![Build Status](https://travis-ci.org/lihungte96/software-test-class-sample.svg?branch=master)](https://travis-ci.org/lihungte96/software-test-class-sample)
 Software test class sample code
 
 support CI Jenkins file
