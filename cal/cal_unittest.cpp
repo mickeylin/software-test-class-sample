@@ -5,7 +5,7 @@ TEST(cal, add){
 }
 
 TEST(cal, sub){
-	//EXPECT_EQ(cal('-', 2, 3), -1);
+	EXPECT_EQ(cal('-', 2, 3), -1);
 }
 
 TEST(cal, mul){
