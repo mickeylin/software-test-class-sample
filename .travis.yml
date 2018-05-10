@@ -1,14 +1,18 @@
+sudo: required
 language: cpp
-compiler:
-- g++
+
 os:
-- linux
+  - linux
+compiler:
+  - g++
+install:
+  - sudo pip install codecov
 script:
-- make -C make
-- make -C make test
-- make -C make gcov
+  - make -C make
+  - make -C make test
+  - make -C make gcov
 branches:
   only:
-  - master
+    - master
 after_success:
   - codecov -t c2a3dea6-6a00-425d-a748-095e1a3f5078 -X gcov
